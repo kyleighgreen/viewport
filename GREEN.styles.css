@@ -401,7 +401,7 @@ img {
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-@media screen and (max-width: 550px) {
+@media screen and (min-width: 600px) {
 
     header,
     footer {
