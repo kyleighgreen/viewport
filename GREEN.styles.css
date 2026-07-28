@@ -363,70 +363,85 @@ img {
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-/* header, footer{
+
+@media screen and (max-width: 800px) {
+
+    header,
+    footer {
         background-color: var(--black);
         color: var(--white);
-    }   
+    }
 
-    main{
+    main {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    section{
+    section {
         background-color: var(--light-gray);
     }
 
-    #one{
+    #one {
         grid-column: 1/3;
     }
 
-    #two{
+    #two {
         grid-column: 3/4;
         grid-row: 1/3;
     }
 
-    #seven{
+    #seven {
         grid-column: 3/4;
         grid-row: 3/5;
-    } */
+    }
+}
+
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
 
 
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-/* header, footer{
+@media screen and (max-width: 1200px) {
+
+    header,
+    footer {
         background-color: var(--lime-green);
         color: var(--dark-gray);
     }
 
-    h1, h2{
+    h1,
+    h2 {
         display: inline-block;
     }
 
-    section{
+    section {
         background-color: var(--blue);
     }
 
-    main{
+    main {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    #one, #seven{
+    #one,
+    #seven {
         grid-column: 1/3;
     }
 
-    #two{
+    #two {
         grid-row: 1/2;
     }
 
-    #two, #eight{
+    #two,
+    #eight {
         grid-column: 3/5;
     }
 
-    #seven, #eight{
+    #seven,
+    #eight {
         grid-row: 3/4;
-    } */
+    }
+}
+
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
 
