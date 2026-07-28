@@ -322,7 +322,7 @@ img {
 
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 
     header,
     footer {
@@ -364,7 +364,7 @@ img {
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 
     header,
     footer {
@@ -401,7 +401,7 @@ img {
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
 
     header,
     footer {
