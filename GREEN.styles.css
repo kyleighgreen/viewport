@@ -401,7 +401,7 @@ img {
 
 /* ---------- LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
 
     header,
     footer {
@@ -470,7 +470,7 @@ img {
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-@media screen and (min-width: 751px) {
+@media screen and (min-width: 800px) {
 
     header,
     footer {
